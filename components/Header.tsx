@@ -32,9 +32,7 @@ const Header = () => {
   return (
     <header className="bg-white dark:bg-header-dark dark:text-white py-6 shadow-[0px_2px_4px_0px_rgba(0,0,0,0.06)]">
       <div className="px-4 container mx-auto flex justify-between items-center">
-        <span className="md:text-2xl text-sm font-extrabold">
-          Where in the world?
-        </span>
+        <span className="md:text-2xl text-sm font-extrabold">🌎 WTW</span>
 
         <div className="flex gap-2 cursor-pointer" onClick={handleDark}>
           <svg
